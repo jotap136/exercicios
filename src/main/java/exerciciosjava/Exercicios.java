@@ -43,6 +43,7 @@ public class Exercicios {
         }
         System.out.println("O resultado final foi " + resultado);
         
+        
     }
     
 }

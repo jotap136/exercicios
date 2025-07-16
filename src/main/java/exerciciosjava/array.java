@@ -22,6 +22,7 @@ public class array {
 			System.out.println(nome.get(i));
 		}
 **/
+		//funciona para array normal e arraylist
 		for(String lista : nome){
 			System.out.println(nome);
 		}

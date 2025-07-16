@@ -18,8 +18,13 @@ public class array {
 		nome.add("Pateta");
 		nome.add("aaaaaaaaaaa");
 		nome.remove(0);
-			System.out.println(nome.get(2));
-	    
+	    /**for (int i = 0; i < nome.size(); i ++){
+			System.out.println(nome.get(i));
+		}
+**/
+		for(String lista : nome){
+			System.out.println(nome);
+		}
 	}
    
 }

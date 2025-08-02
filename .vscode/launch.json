@@ -4,6 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "OOP",
+            "request": "launch",
+            "mainClass": "exerciciosjava.OOP",
+            "projectName": "exercicios"
+        },
         {
             "type": "java",
             "name": "array",

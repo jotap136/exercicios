@@ -10,22 +10,19 @@ public class OOP {
         Carro meuCarro5 = new Carro(" Mercedez");
         
         meuCarro.acelerar();
-        String result = meuCarro.teste();
-        System.out.println(result);    
+
+        // sem herença/poliformismo, só da pra instanciar com o override
+       /**  serVivo meuSer = new serVivo(){
+            @Override
+            public  void respirar(){
+
+            }
+        }
+            **/
+
+        serVivo meuSer = new Humano();
+        System.out.println(meuSer);
     }
 }
 
-class Carro{
-    String modelo;
-    public Carro(String Modelo){
-        this.modelo = Modelo;
-    }
 
-    public void acelerar(){
-        System.out.println("Acelerando carro" + this.modelo);
-    }
-
-    public String teste(){
-        return "oi";
-    }
-}
